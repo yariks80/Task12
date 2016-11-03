@@ -16,7 +16,7 @@ public class Task4 {
         String password1 = password.nextLine();
         String password2 = "qwerty";
 
-        System.out.println('\n'+"Cравнение паролей: " + (password1 == password2)+'\n'); //
+        System.out.println('\n'+"Cравнение паролей: " + (password1 == password2)+'\n'); // String  сравнивать == не стоит 
         System.out.println("Cравнение паролей: " + password1.equals(password2)+'\n');
     }
 }
