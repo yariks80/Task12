@@ -22,7 +22,7 @@ public class Task6 {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите размер массива:");
         int l = in.nextInt();
-        int[] arr = new int[l];
+        int[] arr = new int[l];// имена лоджны содержать в имене то что они хронят
         System.out.println("Введите элементы массива:");
         for (int i = 0; i < arr.length; i++)
             arr[i] = in.nextInt();
