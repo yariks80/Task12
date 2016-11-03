@@ -13,7 +13,7 @@ public class Task3 {
     public void task3() {
         System.out.println('\n' + "Введите количество случайных чисел" + '\n');
         Scanner chisla = new Scanner(System.in);
-        String k = chisla.nextLine();
+        String k = chisla.nextLine();// есть  chisla.nextInt();
         int z = Integer.parseInt(k);
 
         Random rand = new Random();
